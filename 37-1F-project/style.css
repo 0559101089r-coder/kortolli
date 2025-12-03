@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #0f1115; 
+  background-color: #05000f; 
   color: #fff;
 }
 
@@ -23,8 +23,8 @@ a {
 }
 
 .header {
-  background-color: #0f1115;
-  border-bottom: 1px solid #2a2a2a;
+  background-color: #0B0024; 
+  border-bottom: 1px solid #1F0066;
 }
 
 .header__container {
@@ -55,7 +55,7 @@ a {
 
 
 .products__card {
-  background-color: #16181c;
+  background-color: #0F0033;
   border-radius: 12px;
   padding: 0; 
   overflow: hidden;
@@ -109,7 +109,7 @@ a {
 
 .card-desc {
   font-size: 13px;
-  color: #888;
+  color: #aaa; 
   margin-bottom: 15px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -123,14 +123,14 @@ a {
 
 .current-price {
   font-size: 20px;
-  color: #448aff; 
+  color: #7033FF; 
   font-weight: bold;
   margin-right: 10px;
 }
 
 .old-price {
   font-size: 14px;
-  color: #666;
+  color: #888; 
   text-decoration: line-through;
 }
 
@@ -140,7 +140,7 @@ a {
 }
 
 .btn-primary {
-  background-color: #2962ff;
+  background-color: #4D00FF;
   color: #fff;
   border: none;
   padding: 10px;
@@ -153,11 +153,11 @@ a {
 }
 
 .btn-primary:hover {
-  background-color: #0039cb;
+  background-color: #2E0099;
 }
 
 .btn-delete {
-  background-color: #2a2a2a;
+  background-color: #1F0066;
   color: #fff;
   border: none;
   width: 40px;
@@ -177,7 +177,7 @@ a {
 
 .detail-image {
   flex: 1;
-  background-color: #16181c;
+  background-color: #0F0033;
   border-radius: 16px;
   overflow: hidden;
   height: 500px;
@@ -213,7 +213,7 @@ a {
 }
 
 .badge-hit {
-  background-color: #2962ff;
+  background-color: #4D00FF;
   color: white;
 }
 
@@ -236,22 +236,22 @@ a {
 }
 
 .detail-price-box {
-  background-color: #16181c;
+  background-color: #0F0033;
   padding: 30px;
   border-radius: 12px;
   margin-bottom: 30px;
-  border: 1px solid #2a2a2a;
+  border: 1px solid #1F0066;
 }
 
 .detail-main-price {
   font-size: 36px;
-  color: #448aff;
+  color: #7033FF;
   font-weight: bold;
 }
 
 .detail-old-price {
   font-size: 20px;
-  color: #666;
+  color: #888;
   text-decoration: line-through;
   margin-left: 15px;
 }
@@ -275,12 +275,12 @@ a {
 }
 
 .go-back {
-    color: #888;
-    margin-top: 20px;
-    display: inline-block;
+  color: #888;
+  margin-top: 20px;
+  display: inline-block;
 }
 .go-back:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .loader {
@@ -302,7 +302,7 @@ a {
   width: 600px;
   border-radius: 10px;
   padding: 30px 15px;
-  box-shadow: 0px 1px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 1px 10px 2px rgba(237, 239, 255, 0.1); 
 }
 .form__title {
   text-align: center;
@@ -321,11 +321,11 @@ a {
   outline: none;
   padding: 10px;
   border-radius: 6px;
-  border: 1px solid #252525;
+  border: 1px solid #1F0066;
   margin-bottom: 15px;
 }
 .form__container button {
-  background-color: #0d6efd;
+  background-color: #4D00FF;
   color: #fff;
   width: 100%;
   border: none;
@@ -334,4 +334,3 @@ a {
   font-size: 16px;
   cursor: pointer;
 }
-
